@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-kubernetes
+  labels:
+    app: web
+data:
+  MESSAGE: "P R O D U C T I O N"

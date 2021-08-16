@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-kubernetes
+  labels:
+    app: web
+data:
+  MESSAGE: "Welocome to the thunderdome!"
